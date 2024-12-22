@@ -6,8 +6,8 @@ H-Snips is a fork of [HyperSnips V2](https://github.com/Oskar-Idland/hsnips). Th
 
 Key improvements compared with HyperSnips:
 
-- Fixed bugs with [Vim extensions](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). 
-- Support using with [Vim extensions](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)and [Overleaf Workshop](https://github.com/iamhyc/Overleaf-Workshop) together now!
+- Fixed bugs with [Vim extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). 
+- Support using with [Vim extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) and [Overleaf Workshop](https://github.com/iamhyc/Overleaf-Workshop) together now!
 - Support organzing snippets by extension names. For instance, you can put your snippets for `.tex` files in `tex.snippet` instead of `latext.snippet`.
 
 ## Table of Contents
