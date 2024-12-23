@@ -1,33 +1,29 @@
 # H-Snips
 ![](./images/welcome.gif)
 
-H-Snips is a fork of [HyperSnips V2](https://github.com/Oskar-Idland/hsnips). The credits belong to 
-[Oskar-Idland](https://github.com/Oskar-Idland/hsnips), [OrangeX4](https://github.com/OrangeX4/hsnips), and [draivin](https://github.com/draivin/hsnips). Since I am not a fan of noodle versioning (V1, V2, V3, etc.), I rename the package as H-Snips.
+## Navigation 
+- [What's New?](#whats-new)
+- [Quick Start](#quick-start)
+  - [Syntax and Flags](#syntax-and-flags)
+  - [Tabstops and Placeholders](#tabstops-and-placeholders)
+  - [Regex and Priority](#regex-and-priority)
+  - [Return Value and JavaScript](#return-value-and-javascript)
+  - [Visual Selection](#visual-selection)
+  - [Example Config](#example-config)
+- [Detailed Usage](#detailed-usage)
+  - [Snippets file](#snippets-file)
+  - [Trigger](#trigger)
+  - [Flags](#flags)
+  - [Snippet body](#snippet-body)
+  - [Code interpolation](#code-interpolation)
+- [Additional Examples](#additional-examples)
+- [Acknowledgement](#acknowledgement)
 
-Key improvements compared with HyperSnips:
-
+## What's New?
+Version 1.4
 - Fixed bugs with [Vim extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim). 
 - Support using with [Vim extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) and [Overleaf Workshop](https://github.com/iamhyc/Overleaf-Workshop) together now!
 - Support organzing snippets by extension names. For instance, you can put your snippets for `.tex` files in `tex.snippet` instead of `latext.snippet`.
-
-## Table of Contents
-- [H-Snips](#h-snips)
-  - [Table of Contents](#table-of-contents)
-  - [Quick Start](#quick-start)
-    - [Syntax and Flags](#syntax-and-flags)
-    - [Tabstops and Placeholders](#tabstops-and-placeholders)
-    - [Regex and Priority](#regex-and-priority)
-    - [Return Value and JavaScript](#return-value-and-javascript)
-    - [Visual Selection](#visual-selection)
-    - [Example Config](#example-config)
-  - [Detailed Usage](#detailed-usage)
-    - [Snippets file](#snippets-file)
-    - [Trigger](#trigger)
-    - [Flags](#flags)
-    - [Snippet body](#snippet-body)
-    - [Code interpolation](#code-interpolation)
-  - [Additional Examples](#additional-examples)
-
 ## Quick Start
 Press `Ctrl + Shift + P`, and choose `Open Snippets Directory`, then create a `mk.hsnips` or `markdown.hsnips` file, for your markdown snippets. Substitute "mk" or "markdown" for **whatever file extension or language you want**. You can also create a `all.hsnips` file for snippets that should be available in all languages. 
 
@@ -219,3 +215,9 @@ snippet filename "Current Filename"
 ``rv = require('path').basename(path)``
 endsnippet
 ```
+## Acknowledgement 
+H-Snips is a fork of [HyperSnips V2](https://github.com/Oskar-Idland/hsnips), and therefore the credits belong to 
+[Oskar-Idland](https://github.com/Oskar-Idland/hsnips), [OrangeX4](https://github.com/OrangeX4/hsnips), and [draivin](https://github.com/draivin/hsnips). 
+
+Since I am not a fan of noodle versioning (V1, V2, V3, etc.), I rename the package as H-Snips.
+
